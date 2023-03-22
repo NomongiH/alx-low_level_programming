@@ -1,15 +1,14 @@
-#ifndef DOG_H
-#define DOG_H
+#ifndef FILE_DOG
+#define FILE_DOG
 
 /**
  * struct dog - a structure for a dog
  * @name - name
  * @age - age
  * @owner - owner
- * Return 0
  */
 
-struct dog my_dog
+struct dog
 {
 	char *name;
 	float age;
